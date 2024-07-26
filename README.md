@@ -1,1 +1,1 @@
-# FIVEM-Hangout-Spot
+# rotational-hangout
