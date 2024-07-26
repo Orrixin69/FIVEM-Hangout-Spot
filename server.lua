@@ -7,7 +7,7 @@ local blipCoords = {
     vector3(1989.29, 3047.68, 47.21),  -- Yellow Jack
     vector3(1135.15, 109.49, 80.72),   -- Casino Race Track
     vector3(-1265.69, -1533.61, 4.31), -- Boxing Ring - Beach [ I use brutal boxing so feel free to remove this coord as nothing will be there]
-    vector3(-153.62, -2149.19, 16.71), -- Go Karting - Near Maze Bank Arena
+    vector3(-153.62, -2149.19, 16.71), -- Go Karting - Near Maze Bank Arena [Remove this if you dont have it]
     vector3(194.99, -933.56, 30.69),   -- Legion Square
     -- Add more coordinates as needed currently there is 10.
 }
