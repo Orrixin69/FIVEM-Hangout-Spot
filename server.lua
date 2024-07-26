@@ -15,7 +15,7 @@ local blipCoords = {
 local currentBlipIndex = 1
 
 local function updateBlipForAll()
-    TriggerClientEvent('rotational-hangout:updateBlip', -1, blipCoords[currentBlipIndex])
+    TriggerClientEvent('FIVEM-Hangout-Spot:updateBlip', -1, blipCoords[currentBlipIndex])
 end
 
 local function setNextBlip()
@@ -30,8 +30,8 @@ CreateThread(function()
     end
 end)
 
-RegisterServerEvent('rotational-hangout:requestBlip')
-AddEventHandler('rotational-hangout:requestBlip', function()
+RegisterServerEvent('FIVEM-Hangout-Spot:requestBlip')
+AddEventHandler('FIVEM-Hangout-Spot:requestBlip', function()
     local src = source
-    TriggerClientEvent('rotational-hangout:updateBlip', src, blipCoords[currentBlipIndex])
+    TriggerClientEvent('FIVEM-Hangout-Spot:updateBlip', src, blipCoords[currentBlipIndex])
 end)
