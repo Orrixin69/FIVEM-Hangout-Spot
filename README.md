@@ -4,6 +4,8 @@ This is a simple script which is a Hangout Spot. There is 10 configured spots wh
 
 I made this as a way to get some of my players together instead of just staying at Legion Square.
 
+Below is the install steps and preview
+
 Steps to install
 
 - Download file
