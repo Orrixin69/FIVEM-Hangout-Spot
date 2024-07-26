@@ -3,8 +3,8 @@ local currentZone
 local zoneRadius = 90.0  -- Radius of the zone
 local zoneColor = 26     -- Color of the zone blip
 
-RegisterNetEvent('rotational-hangout:updateBlip')
-AddEventHandler('rotational-hangout:updateBlip', function(coords)
+RegisterNetEvent('FIVEM-Hangout-Spot:updateBlip')
+AddEventHandler('FIVEM-Hangout-Spot:updateBlip', function(coords)
     -- Remove existing blips if they exist
     if currentBlip then
         RemoveBlip(currentBlip)
@@ -32,5 +32,5 @@ AddEventHandler('rotational-hangout:updateBlip', function(coords)
 end)
 
 AddEventHandler('onClientMapStart', function()
-    TriggerServerEvent('rotational-hangout:requestBlip')
+    TriggerServerEvent('FIVEM-Hangout-Spot:requestBlip')
 end)
