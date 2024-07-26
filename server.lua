@@ -2,7 +2,7 @@ local blipCoords = {
     vector3(-1492.89, -1299.64, 2.42), -- Beach near south side / Del Pero Pier
     vector3(-1919.31, -711.1, 6.03),   -- North Side Beach
     vector3(-564.78, 273.76, 83.02),   -- Tequi-La-La
-    vector3(1778.76, 3272.6, 41.72),   -- Drag Strip Sandy Shores
+    vector3(1778.76, 3272.6, 41.72),   -- Drag Strip Sandy Shores  [Link: https://www.gta5-mods.com/maps/sandy-shores-drag-strip-ymap]
     vector3(387.15, 3575.5, 33.32),    -- Secret Cool gamer room [Link: https://www.gta5-mods.com/maps/mlo-cyberqg-2023-add-on-sp-fivem]
     vector3(1989.29, 3047.68, 47.21),  -- Yellow Jack
     vector3(1135.15, 109.49, 80.72),   -- Casino Race Track
